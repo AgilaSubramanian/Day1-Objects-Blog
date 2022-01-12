@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects and its internal Representation in JS</title>
+    <link rel="stylesheet" href="object.css"/>
+</head>
+<body>
+    <button>Objects</button>
+    <button>Object Properties</button>
+    <button>Object Methods</button>
+    <h1>Objects</h1>
+    <p>
+        Objects are more complex and each object may contain any combination of these primitive data-types as well as <br>reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a<br> reference or a pointer to that value. That referen
+ or pointer points to the location in memory where the object is stored.<br> The variables don’t actually store the value.
+ <br><br><ol>The following code assigns a simple value (Car) to a variable named Vehicles:<br>
+
+ <li>var Vehicles = "Car";</li><br><br>
+ Objects are variables too. But objects can contain many values<br>
+<br>
+The following code assigns many values (Car, Petrol, White and soo on) to a variable named vehicles:<br>
+<br>
+<li>var vehicles = {Make: “Mercedes”, Type: “Car”,Model: "C-Class" Color: “White”,<br>
+     Fuel: Diesel, Weight: “850kg”, Mileage: “8</ol></p>
+     <h1>Object Properties</h1>
+     <p><ol>The name:values pairs (in JavaScript objects) are called properties.
+<br><br>
+        <li>var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight:"850kg"</li></ol></p>
+       <p><ul> The syntax for adding a property to an object is :<br>
+
+ObjectName.ObjectProperty = propertyValue;<br>
+<br>
+The syntax for deleting a property from an object is:<br>
+
+delete ObjectName.ObjectProperty;<br>
+<br>
+The syntax to access a property from an object is:<br>
+<ul>
+<li>objectName.property</li>
+<li>objectName["property”]</li>
+<li>objectName[expression]</li>
+</ul>
+<h2>Object Method</h2>
+<p>An object method is an object property containing a function definition.</p>
+<p><h2>Creating Objects in JavaScript:</h2>
+<ol><li>By object literal</li>
+<li>By creating instance of Object directly (using new keyword)</li></ol>
+</p>
+</body>
+</html>
